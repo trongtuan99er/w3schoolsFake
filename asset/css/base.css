@@ -1,0 +1,36 @@
+*{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      /* box sizing dùng để ... */
+}
+html{
+                        
+      font-family: Arial, Helvetica, sans-serif;
+      /* font-family thay đỏi font chữ cho toàn web */
+}
+#main{
+      overflow:hidden ;
+      min-height: 2000px;
+}
+
+.btn-primary{
+      min-width: 120px;
+      background-color: #04AA6D;
+      color: white;
+      border-radius: 25px;
+      font-size: 18px;
+      line-height: 1.5;
+      border: none;
+      padding: 8px 16px;
+      text-align: center;
+      vertical-align: middle;
+      text-decoration: none;
+      cursor: pointer;
+      opacity: 0.9;
+}
+.btn-primary:hover{
+      background-color:#059862;
+      color: #fff;
+      overflow: hidden;
+}

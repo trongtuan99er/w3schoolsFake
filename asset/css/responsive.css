@@ -1,0 +1,194 @@
+/* reponsive pc */
+@media (min-width: 1024px){
+      .subnav,  
+      .header__menu{
+              display: none;  
+        }
+        
+}
+/* repon tablet and mobile  */
+@media (max-width: 1023px){
+     .header__nav-item2-btn2{
+           display:none;
+     }
+     .header__nav-item-link{
+           display:none;
+     }
+     .course_list{
+           flex-direction: column;
+     }
+     .course__item{
+           width:100%;
+         
+     }
+     .course__example{
+            width:100%;
+            text-align: center;
+            padding:0 50px;
+     }
+     .Editor_box{
+           width:90%;
+           /* padding:0 16px; */
+           /* text-align: center; */
+     }
+     .footer__list{
+           flex-direction: column;
+          align-items: center;
+     }
+     .footer__list1{
+           margin: 10px 0;
+     }
+     .footer__list-social{
+           text-align: center;
+     }
+    
+}
+/* * REP9OM TABLET */ 
+@media (min-width: 740px) and (max-width: 1023px){
+      .subnav,
+      .header__menu{
+            display: none;  
+      }
+}
+/* moblie reponsive */
+@media (max-width: 739px){
+      .header{
+            position: relative;
+            height:50px;
+      }
+      .header__nav{
+            height:50px;
+      }
+      .logo{
+            height:50px;
+      }
+      .header__nav-item{
+            display: none;
+            width:50px;
+      }
+      .slider__info{
+            width: 100%;
+            padding: 0 35px;
+      }
+      .slider__info-heading{
+            font-size: 40px;
+            font-weight: 700;
+       }
+       .slider__info-intro{
+             margin:30px 0 20px;
+             font-size: 20px;
+       }
+       .slider__info-search-btn{
+             min-width:20% !important;
+       }
+       .course__example{
+             display:none;
+       }
+       .course__item{
+             width: 100%;
+             padding:20px 20px;
+             height:auto;
+       }
+       .course__item-heading{
+            font-size: 60px;
+       }
+       .course__item-derc{
+             font-weight: bold;
+       }
+       .Editor{
+             padding:40px 10px;
+       }
+       .Editer__heading{
+             font-size:50px;
+             margin-top:10px;
+       }
+       .Editer__decr{
+             font-size: 18px;
+             font-weight: bold;
+       }
+       .Editor__btn1,
+       .Editor__btn2{
+             width: 100%;
+            font-size: 16px;
+       }
+       .study{
+             padding:40px 10px;
+       }
+       .spacebacground{
+             padding: 40px 10px;
+       }
+       .space__heading{
+             font-size:50px;
+            margin-bottom: 10px;
+       }
+       .study__decr{
+             margin-top:10px;
+       }
+       .space__img{
+             display: none;
+       }
+
+
+       .study__btn{
+             flex-direction: column;
+             align-items: center;
+             margin-top:20px;
+       }
+       .study__btn-box{
+             width: 80%;
+             margin-top:10px;
+            
+       }
+       .space__btn-link{
+            padding: 10px 16px;
+            width:100%;
+       }
+
+       .Templates{
+             padding:50px 10px;
+       }
+       .Templates__heading{
+             font-size: 45px;;
+       }
+       .Templates__derc{
+             font-size: 20px;
+             font-weight: 400;
+             margin: 10px 0;
+       }
+       .Templates__img,
+       .Templates__img-link{
+             width: 100%;
+       }
+       .Templates__btn{
+             width: 90%;
+             padding:16px;
+       }
+       .footer{
+             padding: 10px;
+       }
+
+       .footer__list1{
+             display:flex;
+             flex-direction:column;
+             align-items:center;
+           
+       }
+       .footer__list1-item{
+            margin-top:10px;
+            min-width:200px;
+            text-align:center;
+
+       }
+       .footer__btn{
+             width: 100%;
+       }
+       .footer__btn-link{
+            margin: 10px 0 30px;
+            width: 100%;
+            font-size:16px;
+            font-weight: 400;
+            padding:10px 0;
+            align-items: center;
+       }
+       
+}
